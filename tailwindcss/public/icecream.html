@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <style>
+        @media screen and (max-width:639px){
+            .hero{
+                background-image:url('https://images01.nicepage.com/c461c07a441a5d220e8feb1a/f4ec993a23c850179d4d5ba4/jkjkjk.jpg');
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+        }
+        @media screen and (min-width:640px) and (max-width:1023px){
+            .hero{
+                background-image:url('iceimg.jpg');
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!--Nav-->
+    <nav class="bg-zinc-800 py-5">
+        <div class="w-3/4 mx-auto flex items-center justify-between">
+            <h3 class="text-white uppercase text-2xl">Sportclub</h3>
+            <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"/></svg>
+        </div>
+    </nav>
+    
+    <!--Hero-->
+    <div class="py-10 hero lg:block flex flex-col lg:w-3/4 lg:mx-auto lg:relative " style="height:1000px;">
+
+        <img src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/f4ec993a23c850179d4d5ba4/jkjkjk.jpg" alt="icecream" class="hidden lg:block lg:absolute" style="width:40%; top:15%; z-index:2;">
+
+        <div class="hidden lg:block lg:absolute" style="background-color: #555273; width:20%; left:35%; top:10%; height:80%; z-index:1">
+        </div>
+
+        <div style="background-color: rgba(95, 8, 21, 0.4); right:20%; z-index:2" class="w-3/4 py-8 px-6 ml-6 sm:w-3/5 md:w-1/2 lg:w-1/3 lg:absolute">
+            <p class="text-xl tracking-wider uppercase mb-5" style="text-shadow:2px 2px 2px rgba(35, 1, 6, 0.5); color:rgb(255, 245, 254)">online shop</p>
+            <p class="text-3xl font-light mb-7 tracking-wide" style="text-shadow:2px 2px 2px rgba(35, 1, 6, 0.5); color:rgb(255, 245, 254)">Ice cream delivery to all 50 states</p>
+            <p class="text-lg font-light tracking-wider" style="text-shadow:2px 2px 2px rgba(35, 1, 6, 0.5); color:rgb(255, 245, 254)">Image from <a href="#" class="font-normal">Freepik</a></p>
+        </div>
+
+        <div style="background-color:rgba(255,255,255,0.6); right:0%; top:40%; z-index:2" class="sm:self-end sm:mr-6 lg:mr-0 ml-6 px-6 py-8 mt-20 w-4/5 sm:w-3/4 md:w-3/5 lg:w-1/2 lg:absolute">
+            <p class="text-xl font-semibold uppercase mb-5" style="color:rgb(95, 8 ,21)">Ice cream and vegan ice cream</p>
+            <p class="text-md mb-5 leading-relaxed" style="color: rgb(128, 13, 31);">Massa ultricies mi quis hendrerit. Ac ut consequat semper viverra nam. Libero id faucibus nisl tincidunt eget nullam non nisi est. Arcu odio ut sem nulla. Amet tellus cras adipiscing enim. Et magnis dis parturient montes. Imperdiet sed euismod nisi porta lorem mollis.</p>
+            <button class="border tracking-wide text-pink-900 border-pink-900 px-4 py-1 hover:bg-pink-900 hover:text-white hover:font-light hover:tracking-wider transition duration-300">Learn more</button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+
+<!--
+        <div class="w-3/4 mx-auto my-14 relative" style="height:900px;">
+        <img src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/f4ec993a23c850179d4d5ba4/jkjkjk.jpg" alt="icecream" class="absolute shadow-2xl" style="width:40%; top:100px; z-index:2">
+        <div class="absolute shadow-2xl" style="width:20%; height:800px; left:33%; z-index:1; top:50px; background-color:#555273">
+        </div>
+        <div class="absolute shadow-2xl py-10 px-14" style="box-sizing:border-box; width:40%; height:300px; background-color:#cf233d; right:12%; z-index:2">
+            <p class="text-white text-2xl uppercase font-light mb-7 tracking-widest">online shop</p>
+            <p class="text-white text-4xl font-light mb-7">Ice cream delivery to all 50 states</p>
+            <p class="text-white text-lg">Image from <a href="#" class="underline font-semibold">Freepik</a></p>
+        </div>
+        <div class="absolute border shadow-2xl bg-white pt-16 px-14" style="width:52%; z-index:2; height:450px; bottom:0%; right:0%;">
+            <p class="text-2xl uppercase font-bold tracking-wide mb-7" style="color:#cf233d">ice cream and vegan ice cream</p>
+            <p class="text-lg mb-10 leading-loose">Massa ultricies mi quis hendrerit. Ac ut consequat semper viverra nam. Libero id faucibus nisl tincidunt eget nullam non nisi est. Arcu odio ut sem nulla. Amet tellus cras adipiscing enim. Et magnis dis parturient montes. Imperdiet sed euismod nisi porta lorem mollis.</p>
+            <button class="uppercase border border-black py-2 px-7 tracking-wider text-md hover:bg-black hover:text-white">
+                learn more
+            </button>
+        </div>
+-->

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <style>
+       /* input:focus{
+            outline:5px solid rgba(86, 173, 255, 0.35);
+        }*/
+    </style>
+</head>
+<body>
+    <div class="flex flex-col items-center sm:w-full md:w-3/4 lg:w-3/5 xl:w-2/5 mx-auto py-20 md:px-0 px-10">
+        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="bootstrap logo" class="w-16 mb-5">
+        <h2 class="font-bold text-4xl mb-3">Centered hero</h2>
+        <p class="text-center font-light text-xl text-gray-500 mb-6">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="flex sm:flex-row flex-col sm:w-auto w-full">
+            <button class="bg-blue-500 text-white rounded-xl hover:bg-blue-600 py-2 px-3 text-lg mr-3 sm:mb-0 mb-2">Primary button</button>
+            <button class="text-gray-500 hover:text-white hover:bg-gray-500 rounded-xl border border-gray-500 py-2 px-3 text-lg sm:mr-0 mr-3">Secondary</button>
+        </div>
+    </div>
+
+    <div class="bg-gray-300 h-12" style="box-shadow:0px 3px 5px rgba(0,0,0,0.25) inset"></div>
+
+    <!--Hero 2-->
+    <div class="border-b my-12">
+        <div class="flex flex-col items-center xl:w-1/2 md:w-3/4 lg:w-3/5 mx-auto md:px-0 px-7">
+            <h1 class="text-5xl font-bold my-5 text-center">Centered Screenshot</h1>
+            <p class="text-gray-500 font-light text-xl text-center mb-6">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="mb-12 sm:block flex flex-col w-full text-center">
+                <button class="bg-blue-500 text-white rounded-xl hover:bg-blue-600 py-2 text-lg px-3 mr-2 sm:mb-0 mb-2">Primary button</button>
+                <button class="text-gray-500 hover:bg-gray-500 hover:text-white rounded-xl border border-gray-500 py-2 px-3 text-lg sm:me-0 me-2">Secondary</button>
+            </div>
+            <div style="height:30vh" class="overflow-hidden px-10">
+                <img  class="rounded-lg shadow-2xl" src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-docs.png" alt="img">
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-300 h-12" style="box-shadow:0px 3px 5px rgba(0,0,0,0.25) inset"></div>
+
+    <!--Hero 3-->
+    <div class="xl:w-4/5 flex lg:w-full lg:flex-row flex-col items-start lg:items-center mx-auto justify-between py-14 xl:px-0 md:px-14 sm:px-12 px-10">
+        <div class="w-full lg:w-1/2 lg:pr-10 lg:order-1 order-2">
+            <h1 class="text-4xl font-bold mb-5">Responsive left-aligned hero with image</h1>
+            <p class="text-gray-500 font-light text-xl mb-7">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div class="md:block flex flex-col w-full">
+                <button class="bg-blue-500 text-white rounded-xl hover:bg-blue-600 py-2 text-lg px-3 mr-2 md:mb-0 mb-2">Primary button</button>
+                <button class="text-gray-500 hover:bg-gray-500 hover:text-white rounded-xl border border-gray-500 py-2 px-3 text-lg md:me-0 me-2">Secondary</button>
+            </div>
+        </div>
+        <div class="w-3/4 md:w-3/5 lg:w-1/2 rounded-lg overflow-hidden lg:order-2 order-1 lg:mb-0 mb-7">
+            <img src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png" alt="img">
+        </div>
+    </div>
+
+    <div class="bg-gray-300 h-12" style="box-shadow:0px 3px 5px rgba(0,0,0,0.25) inset"></div>
+
+    <!--Hero 4-->
+    <div class="xl:w-3/4 w-4/5 flex lg:flex-row flex-col justify-between items-center mx-auto py-20 lg:px-0 md:px-20 sm:px-10 px-0">
+        <div class="w-full lg:w-3/5 lg:pr-10 pr-0 lg:mb-0 mb-10">
+            <h1 class="font-bold text-5xl mb-8 leading-tight lg:text-left text-center">Vertically centered hero sign-up form</h1>
+            <p class="text-xl lg:pr-20 pr-0 leading-8 lg:text-left text-center">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </div>
+        <div class="w-full lg:w-2/5">
+            <div class="border border-gray-300 rounded-lg flex flex-col py-10 px-12">
+                <input type="email" placeholder="Email address" class="h-14 border rounded px-3 focus:outline focus:outline-4 focus:outline-blue-200 mb-4">
+                <input type="password" placeholder="Password" class="h-14 border rounded px-3 focus:outline focus:outline-4 focus:outline-blue-200 mb-4">
+                <div class="mb-4">
+                    <input type="checkbox" id="remember">
+                    <label for="remember" class="ml-1">Remember me</label>
+                </div>
+                <button class="bg-blue-500 text-white rounded-lg hover:bg-blue-600 text-lg py-2 mb-5">Sign up</button>
+                <p class="text-gray-500 text-sm border-t pt-5 border-t-gray-300">By clicking Sign up, you agree to the terms of use.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-300 h-12" style="box-shadow:0px 3px 5px rgba(0,0,0,0.25) inset"></div>
+
+    <!--Hero 5-->
+    <div class="sm:w-11/12 lg:w-11/12 xl:w-4/5  mx-auto ">
+    <div class="flex lg:flex-row flex-col justify-between items-center border-2 rounded-lg shadow-2xl my-10">
+        <div class="lg:w-1/2 w-full lg:ml-14 ml-0 lg:px-0 sm:px-14 px-8 lg:mt-0 mt-10">
+            <h1 class="text-5xl font-bold leading-tight mb-5 lg:text-left text-center">Border hero with cropped image and shadows</h1>
+            <p class="text-xl font-light leading-normal mb-5 lg:text-left text-center">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="md:block flex flex-col w-full lg:text-left text-center">
+                <button class="bg-blue-500 text-white rounded-xl hover:bg-blue-600 py-2 text-lg px-3 mr-2 md:mb-0 mb-2">Primary</button>
+                <button class="text-gray-500 hover:bg-gray-500 hover:text-white rounded-xl border border-gray-500 py-2 px-3 text-lg md:me-0 me-2">Default</button>
+            </div>
+        </div>
+        <div class="lg:w-1/3 w-full pt-20 lg:px-0 sm:px-14 px-8">
+            <div class="rounded-lg border shadow-2xl" style="height:70vh; background-image: url('https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-docs.png'); background-size:cover;">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="bg-gray-300 h-12" style="box-shadow:0px 3px 5px rgba(0,0,0,0.25) inset"></div>
+
+    <!--Hero 6-->
+    <div class="bg-zinc-800 py-20">
+        <div class="flex w-full lg:w-1/2 mx-auto flex-col items-center px-5">
+            <h2 class="text-white text-5xl font-bold mb-5">Dark color hero</h2>
+            <p class="text-zinc-500 text-center text-xl mb-7">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="sm:block flex flex-col sm:w-auto w-full">
+                <button class= "text-cyan-400 rounded-xl hover:bg-cyan-400 hover:text-black border border-cyan-400 py-2 text-lg px-5 mr-2 sm:mb-0 mb-2">Custom button</button>
+                <button class="text-white hover:bg-white hover:text-black rounded-xl border border-white py-2 px-5 text-lg sm:me-0 me-2">Secondary</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-300 h-12" style="box-shadow:0px 3px 5px rgba(0,0,0,0.25) inset"></div>
+</body>
+</html>
